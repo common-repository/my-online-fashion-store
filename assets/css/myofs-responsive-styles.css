@@ -1,0 +1,263 @@
+/* Tab landscape */ 
+@media only screen and (max-width: 1199px) {
+    .page-sidebar-wrapper {width: 100%;}
+    .page-content-wrapper {width: 100%;}
+    .sidebar-icon {position: absolute; right: 20px; font-size: 20px; top: 25px; cursor: pointer;}
+    ul.page-sidebar-menu.page-header-fixed .side-panels {padding: 0px 0px 20px 0px;}
+    .nav-tab {padding: 5px 7px;}
+    .page-content-wrapper .page-content {padding: 0px 0px 10px 0px; margin-right: -20px;}
+    ul.page-sidebar-menu.page-header-fixed .side-panels a.nav-link {display: inline-block; float: none; width: auto; cursor: pointer;}
+    li.myofs-nav-item {clear: both;}
+    .side-panels select.form-control {max-width: 100%;}
+    .page-sidebar-menu .slick-slider img {display: block; margin-left: auto; margin-right: auto;}
+    .page-sidebar-wrapper span.sidebar-icon.open-sidebar:after {content: "\f00d";}
+    ul.page-sidebar-menu.page-header-fixed .side-panels > li.heading.Categories h3 {margin-top: 0px;}
+    
+    /* All Inventory Start */
+    .modal-dialog {width: 90%; margin-left: auto; margin-right: auto;}
+    .myofs_inventory .margin-top-10.top_header_sec {padding-left: 0px; padding-right: 0px;}
+    #myofs_productdta > .inventory-lists > .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #inventory .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #myofs_myinvproductdta > .inventory-lists > .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #inventory .col-lg-2.col-md-4.col-sm-6.col-xs-12 {width: 33.33%;}
+    #snackbar {margin-left: -114px !important;}
+    /* All Inventory End */
+    
+    /* Order page Start */
+    .store_orderlist .label {display: inline-block;}
+    /* Order page End */
+    
+    /* Marketing Material Page Start */
+    .marketing_material li span {font-size: 20px;}
+    /* Marketing Material Page End */
+    
+    /* Returns Start */
+    
+    .myofs_return .row > .col-md-7 {width: 100%;}
+    /* Returns End */
+
+    .myofs_plugin_version {margin-bottom: -46px; max-width: 250px;}
+    }
+
+
+
+/* End of max 1199px */
+/* Tab portrait */
+@media only screen and (max-width: 991px) {
+    
+    .nav-tab {padding: 3px 5px; margin-left: 2px;}
+    .page-sidebar .sidebar-search .input-group .form-control,
+    .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .form-control {min-height: inherit;}
+    
+    .toplevel_page_myofs-all-inventory .wrap .page-content h1.wp-heading-inline {margin-bottom: 20px; font-size: 18px;}
+    
+    .wrap {margin-left: 2px;}
+    .page-content-wrapper .page-content {margin-right: -10px; min-height: inherit !important;}
+    .wp-admin .form-table select,
+    .wp-core-ui select {min-height: inherit; font-size: 14px;}
+    
+    /* All Inventory Start */
+    .modal-body .row .col-md-6 {width: 100%;}
+    #snackbar {margin-left: auto !important; left: 0px; right: 0px;}
+    /* All Inventory End */
+    
+    /* Order page Start */
+    form.quick-find input {min-height: 30px; height: 30px;}
+    #wpbody-content {padding-bottom: 30px;}
+    /* Order page End */
+    
+    /* Marketing Material Page Start */
+    .marketing_info {padding: 0px;}
+    .marketing_info ul {margin-bottom: 0px;}
+    /* Marketing Material Page End */
+    
+    /* Returns Start */
+        .free_returns .form-control {min-height: 34px;}
+    /* Returns End */
+    
+    /* Upgrade & Save Start */
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan a {font-size: 22px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan {padding: 10px 5px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content.plan_info p {font-size: 16px;}
+    .toplevel_page_myofs-all-inventory .page-content a.upgradesave_bnnr_img { margin-bottom: 30px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content h1 {font-size: 18px;}
+    /* Upgrade & Save End */
+    
+    .myofs-contactinfo,
+    .myofs-faqs {margin-right: 10px;}
+ 
+    .myofs_plugin_version {margin-bottom: 0px; max-width: none; padding-bottom: 30px;}
+    
+}
+/* End of max 991px */
+
+/* Mobile  landscape */
+@media only screen and (max-width: 767px) {
+    
+    .nav-tab-wrapper {margin-right: 5px;}
+    
+    h1 .nav-tab, h2 .nav-tab, h3 .nav-tab, nav .nav-tab {
+	margin: 5px 5px 0px 0px; border-bottom: 1px solid #c3c4c7;}
+    .nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {border-bottom: 0px;}
+    
+    .upgradesave_bnnr_img img {max-width: 100%;}
+    .page-content-wrapper .page-content {margin-right: 14px;}
+    
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan {padding: 15px 5px;}
+    .toplevel_page_myofs-all-inventory .page-content a.upgradesave_bnnr_img {margin-bottom: 30px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan a {font-size: 20px;}
+    #multi-add {display: inline-block;}
+    #sidebar-content {position: relative;}
+    .sidebar-icon {right: 14px; top: -30px;}
+    
+    .wrap {margin-right: 0px;}
+    
+    /* All Inventory Start */
+    .first_btn {width: 100% !important;}
+    #myofs_myinvproductdta .first_btn {padding-left: 0px; padding-right: 0px;}
+    
+    .btn-toolbar .btn-group {width: 100%; margin-bottom: 5px;}
+    #multi-combine-add {margin-left: 0px;}
+    .myofs_inventory .btn.blue:not(.btn-outline) {width: 100%; text-align: left; line-height: 34px;}
+    .myofs_inventory .btn.blue i.fa.fa-angle-down {float: right;}
+    #multi-combine-add {margin-right: 0.5%; width: 49.5%; display: inline-block;}
+    #multi-add {display: inline-block; margin-left: 0.5%; width: 49.5%;}
+    #section_n a.remove-wc {margin: 0px 0px 10px -15px;}
+    .btn-toolbar .btn-group {width: 100%; margin-bottom: 5px;}
+    select#limitbox {width: 100%; max-width: 100%;}
+    .myofs_inventory .col-md-6.bottom_pagination {text-align: center; width: 100%;}
+    .myofs_inventory .margin-top-10 {width: 100%;}
+    
+    .fade { padding-left: 10px !important; padding-right: 10px !important;}
+    .modal-dialog {width: 100%;}
+    .removeconfirm .modal-dialog,
+    #addtowc_modal .modal-dialog {max-width: 100%;}
+    #addtowc_modal .col-sm-4,
+    #addtowc_modal .col-sm-6,
+    #addtowc_modal .col-sm-8 {width: 100%;}
+    #myofs_storecat .select2-container {width: 100% !important;}
+    #addtowc_modal select.form-control {max-width: 100%;}
+    #addtowc_modal #pro_default_tag + div.form-group.row {margin-bottom: 0px;}
+    #addtowc_modal #pro_default_tag + div.form-group.row .form-check {padding-top: 0px; padding-bottom: 5px;}
+    input[type="checkbox"],
+    input[type="radio"] {height: 20px; width: 20px;}
+    /* All Inventory End */
+    
+    
+    /* Order page Start */
+    ul {padding-left: 30px;}
+    .store_orderlist .table,
+    .store_orderlist .table thead,
+    .store_orderlist .table tr,
+    .store_orderlist .table td,
+    .store_orderlist .table tbody {display: block; float: left; width: 100%;}
+    
+    .store_orderlist .table > thead > tr > th {display: none;}
+    .store_orderlist table.results > tbody.order_data > tr > th,
+    .store_orderlist table.results > tbody.order_data > tr > td {position: relative; padding-left: 100px; word-break: break-word;}
+    .store_orderlist table.results > tbody.order_data > tr > th:before,
+    .store_orderlist table.results > tbody.order_data > tr > td:before {content: ""; position: absolute; left: 0px; top: 8px; font-weight: 700;}
+    .store_orderlist table.results > tbody.order_data > tr > th:before {content: "Order"} 
+    .store_orderlist table.results > tbody.order_data > tr > td:nth-of-type(1n):before {content: "Date"}
+    .store_orderlist table.results > tbody.order_data > tr > td:nth-of-type(2n):before {content: "Customer"}
+    .store_orderlist table.results > tbody.order_data > tr > td:nth-of-type(3n):before {content: "Status"}
+    .store_orderlist table.results > tbody.order_data > tr > td:nth-of-type(4n):before {content: "Total"}
+    .store_orderlist table.results > tbody.order_data > tr > td:nth-of-type(5n):before {content: "Action"}
+    .store_orderlist .table tr {border-bottom: 1px #ccc solid;}
+    
+    .store_orderlist table.results > tbody.order_data > tr > td[colspan="6"] {padding-left: 0px;}
+    .store_orderlist table.results > tbody.order_data > tr > td[colspan="6"]:nth-of-type(1n):before  { content: "";}
+    .store_orderlist i.fa-plus, .store_orderlist i.fa-minus {line-height: 15px; margin-left: 0px;}
+    .myorders .container {padding-left: 0px; padding-right: 0px;}
+    .myorders h2 {font-size: 30px;}
+    .myorders h3, .mywebsite .container h3 {font-size: 20px;}
+    .myorders h4 a {font-size: 20px;}
+    .myorders h4 {margin-bottom: 30px;}
+    /* Order page End */
+    
+    /* Marketing Material Page Start */
+    .marketing_info h3 a {font-size: 24px;}
+    .marketing_info ul li {padding: 5px;}
+    .marketing_material li {width: 33.33%;}
+    /* Marketing Material Page End */
+    
+    /* Help Start */
+    .myofs-faqs .acc-set > h4 {font-size: 14px;}
+    .myofs-contactinfo .caption,
+    .myofs-faqs .caption {font-size: 16px;}
+    .myofs-contactinfo,
+    .myofs-faqs {margin-right: -14px;}
+    /* Help End */
+    
+    
+    /* Returns Start */
+    #free_returns .form-actions.fluid {display: flex; justify-content: center;}
+    /* Returns End */
+    
+    /* Upgrade & Save Start */
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan a {font-size: 18px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content .more_info_plan {padding: 5px 5px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content.plan_info p {font-size: 14px;}
+    .toplevel_page_myofs-all-inventory .wrap .page-content h1 {font-size: 16px;}
+    /* Upgrade & Save End */
+    
+    .myofs_plugin_version {padding-right: 15px;}
+
+
+    .maintenance_cont .mtn_right h1 { font-size: 40px !important;}
+    .maintenance_cont .mtn_left{ width: 100%;}
+    .maintenance_cont .mtn_right { width: 100%;margin-top: 20px;}
+    .maintenance_cont .mtn_right p{font-size: 18px !important; text-align: center !important; }
+    
+}
+/* End of max 767px */
+
+/* Mobile portrait */
+@media only screen and (max-width: 479px) {
+    
+    /* All Inventory Start */
+    #myofs_productdta > .inventory-lists >  .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #inventory .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #myofs_myinvproductdta > .inventory-lists > .col-lg-2.col-md-4.col-sm-6.col-xs-12,
+    #inventory .col-lg-2.col-md-4.col-sm-6.col-xs-12 {width: 50%;}
+    #addtowc_modal .btn {margin-bottom: 5px; width: 100%;}
+    #addtowc_modal .modal-footer .btn + .btn { margin-left: 0px;}
+    /* All Inventory End */
+    .myofs_inventory .portlet-desc {padding: 0px 5px 0px 5px;}
+    
+    /* Order page Start */
+    .store_orderlist .col-md-12 h6 {padding-left: 0px; padding-right: 0px;}
+    .store_orderlist .p_price,
+    .store_orderlist .col-md-6 {width: 100%; padding-left: 0px; padding-right: 0px;}
+    .store_orderlist .row .col-md-12 h5 {padding-left: 0px; padding-right: 0px;}
+    .store_orderlist .col-md-12.text-right.row {padding-right: 0px;}
+    /* Order page End */
+    
+    /* Marketing Material Page Start */
+    .marketing_material { margin-top: 0px; margin-bottom: 0px;}
+    .marketing_material li {width: 50%;}
+    .marketing_material li span {font-size: 16px;}
+    /* Marketing Material Page End */
+    
+    /* My Accout Start */
+    .my_account .portlet.light.bg-inverse h2.margin-bottom-20 {font-size: 20px;}
+    .my_account .portlet.light.bg-inverse .form-body .form-group .control-label {width: 45%;}
+    .my_account .form {padding: 12px 10px 15px;}
+    .my_account .portlet.light.bg-inverse .form-body .form-group .control-label {font-size: 13px; padding-left: 0px;}
+    .my_account .portlet.light.bg-inverse .form-body .form-group .col-md-9 p {font-size: 13px;}
+    /* My Accout End */
+    
+    #multi-add,
+    #multi-combine-add {margin-right: 0%; width: 100%; margin-bottom: 5px;}
+    
+    .loader {top: 35%; left: 35%;}
+    
+    .myofs_plugin_version {max-width: 250px;}
+
+    .maintenance_cont .mtn_right h1 { font-size: 30px !important;}
+    .maintenance_cont .mtn_left{ width: 100%;}
+    .maintenance_cont .mtn_right { width: 100%;}
+    .maintenance_cont .mtn_right p{font-size: 15px !important; text-align: center !important; }
+    
+}
+/* End of max 479px */
